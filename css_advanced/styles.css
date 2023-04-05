@@ -1,0 +1,207 @@
+body{
+    background-image: url('./images/background.png');
+    background-repeat: no-repeat;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+body a {
+    text-decoration: none;
+}
+
+/* Style of header */
+header {
+    width: 1103.41px;
+    height: 29.46px;
+    margin-top: 20.02px;
+    align-self: center;
+    display: flex;
+    justify-content:space-between;
+}
+
+/* Style of menu */
+.menu {
+    width: 234px;
+    height: 15px;
+    left: 1041px;
+    top: 37px;
+    display: flex;
+    justify-content:space-between;
+
+}
+
+#login, #pricing, #courses {
+    height: 15px;
+    top: 37px;    
+    /* Fonts */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 15px;
+
+
+    /* Color of font */
+    color: #FFFFFF;
+}
+
+/* MAIN */
+
+/* Get schooled */
+#get_school, #sgl, #register_free{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    text-align: center;
+
+}
+
+#get_school {
+    align-self: center;
+    top: calc(50% - 151px/2 - 251px);
+    margin-top: 155.52px;
+    height: 151px;
+    
+    font-weight: 700;
+    font-size: 110px;
+    line-height: 151px;  
+    /* identical to box height */
+    color: #FFFFFF;
+    margin-bottom: 0px;
+} 
+
+#sgl {
+    height: 20px;
+    top: calc(50% - 20px/2 - 175.5px);
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 20px;
+
+    margin-top: 0px;
+    color: #FFFFFF;
+    word-spacing: 91px;
+}
+
+#register_free {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    filter: drop-shadow(0px 2px 20px rgba(0, 0, 0, 0.5));
+    width: 165px;
+    height: 44px;
+    border-radius: 20px;
+    margin-top: 38px;
+    margin-bottom: 0px;
+
+    background-color: #C271FF;
+    border: #C271FF;
+    color: #FFFFFF;
+}
+
+#get_sgl_register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#learn_pros {
+    /* Learn from the pros */
+    margin-top: 168px;
+    margin-bottom: 0px;
+    height: 40px;
+    left: 41.94%;
+    right: 39.93%;
+    top: calc(50% - 40px/2 + 104.5px);
+
+    font-family: calibri;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.pros {
+    width: 1009px;
+    height: 237px;
+    left: 217px;
+    top: 758px;
+    margin: 0 auto;
+    margin-top: 87px;
+    margin-bottom: 82px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pros img {
+    border-radius: 50%;
+    margin-bottom: 0px;
+}
+
+.pros h1 {
+    /* Phillip Massey */
+
+    height: 27px;
+    left: 0%;
+    right: 0%;
+    top: calc(50% - 27px/2 + 55px);
+
+    font-family: calibri;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.pros p {
+    height: 48px;
+    left: 0%;
+    right: 0%;
+    top: calc(50% - 48px/2 + 94.5px);
+
+    font-family: calibri;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    /* or 150% */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+    margin-top: 2px;
+}
+
+/* QUOTE */
+.quote {
+    width: 1440px;
+    right: 10px;
+    margin-left: -8px;
+    height: 392px;
+    background: #C271FF;
+}
+
+.quote img{
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    left: 259px;
+    top: 1201px;
+
+}
