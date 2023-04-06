@@ -13,11 +13,12 @@ body a {
 /* Style of header */
 header {
     width: 1103.41px;
+    min-width: auto;
     height: 29.46px;
     margin-top: 20.02px;
-    align-self: center;
     display: flex;
-    justify-content:space-between;
+    align-self: center;
+    justify-content: space-between;
 }
 
 /* Style of menu */
@@ -27,7 +28,7 @@ header {
     left: 1041px;
     top: 37px;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
 
 }
 
@@ -50,7 +51,7 @@ header {
 
 /* Get schooled */
 #get_school, #sgl, #register_free{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Calibri;
     font-style: normal;
     text-align: center;
 
@@ -84,20 +85,20 @@ header {
     word-spacing: 91px;
 }
 
-#register_free {
+.register_free {
     font-style: normal;
     font-weight: 600;
-    font-size: 11px;
-    line-height: 18px;
+    font-size: 14px;
+    line-height: 17.6px;
     /* identical to box height */
     
     filter: drop-shadow(0px 2px 20px rgba(0, 0, 0, 0.5));
-    width: 165px;
+    width: 162px;
     height: 44px;
     border-radius: 20px;
     margin-top: 38px;
     margin-bottom: 0px;
-
+    
     background-color: #C271FF;
     border: #C271FF;
     color: #FFFFFF;
@@ -129,7 +130,7 @@ header {
 }
 
 .pros {
-    width: 1009px;
+    max-width: 1009px;
     height: 237px;
     left: 217px;
     top: 758px;
@@ -189,19 +190,398 @@ header {
 }
 
 /* QUOTE */
-.quote {
+.quo {
     width: 1440px;
+    height: 392px;
     right: 10px;
     margin-left: -8px;
-    height: 392px;
     background: #C271FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.quote img{
+#quote {
+    display: flex;
+}
+
+#quote blockquote, #quote p {
+    color: #FFFFFF;
+}
+
+#quote blockquote {
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 22px;
+    font-family: calibri;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    /* or 153% */
+}
+
+#quote #name {
+    /* Person Name */
+    font-family: calibri;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 34px;
+    /* identical to box height, or 153% */
+}
+
+#quote img{
     border-radius: 50%;
     width: 160px;
     height: 160px;
     left: 259px;
     top: 1201px;
+}
 
+#quote p {
+    font-family: calibri;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    /* identical to box height, or 153% */
+
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#te {
+    margin-left: 53px;
+}
+
+#name {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 34px;
+}
+
+/* Video List */
+#video_list {
+    width: 1228px;
+    height: 450px;
+    margin: 62px auto 112px auto;
+}
+
+#video_list h1 {
+    text-align: center;
+    height: 40px;
+
+    font-family: calibri;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+
+    color: #071629;
+}
+
+.tutorials {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 75px;
+}
+
+.tutorials h2 {
+    margin-bottom: 0;
+    height: 20px;
+    margin-left: 13px;
+
+    font-family: calibri;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #071629;
+}
+
+/* Images of the videos */
+#image_video {
+    background-image: url(./images/play.png), url(./images/preview.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+    width: 255px;
+    height: 154px;
+}
+#image_video1 {
+    background-image: url(./images/play.png), url(./images/preview\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+    width: 255px;
+    height: 154px;
+}
+#image_video2 {
+    background-image: url(./images/play.png), url(./images/preview\ \(2\).png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+    width: 255px;
+    height: 154px;
+}
+#image_video3 {
+    background-image: url(./images/play.png), url(./images/preview\ \(3\).png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+    width: 255px;
+    height: 154px;
+}
+
+.video_description {
+    margin-top: 7.6px;
+    margin-left: 13px;
+    height: 48px;
+
+    font-family: calibri;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+    color: rgba(7, 22, 41, 0.501584);
+}
+
+.author_video {
+    margin-top: 13.4px;
+    margin-left: 13px;
+    width: 129px;
+    height: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.author_video h3 {
+    left: 21.96%;
+    right: 44.31%;
+    top: calc(50% - 27px/2 + 109px);
+
+    font-family: calibri;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 27px;
+    /* identical to box height, or 193% */
+
+    color: #C271FF;
+
+}
+
+.stars {
+    width: 220px;
+    height: 27px;
+    margin-top: 14px;
+    margin-left: 13px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.stars div {
+    width: 107px;
+    height: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.stars p {
+    font-family: calibri;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    /* identical to box height, or 193% */
+
+    color: #C271FF;   
+}
+
+/* Membership */
+#membership {
+    width: 1440px;
+    height: 502px;
+    margin-left: -8px;
+    display: flex;
+    flex-direction: column;
+    
+    background: #071629;
+}
+
+#membership h1 {
+    /* Free membership */
+    font-family: calibri;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+
+    margin-top: 69px;
+    margin-bottom: 0px;
+    
+    color: #FFFFFF;
+}
+
+#smiles {
+    width: 1112px;
+    margin: 58px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.smile {
+    width: 257px;
+    height: 153px;
+    display: flex;
+    flex-direction: column;
+}
+
+.smile img{
+    align-self: center;
+}
+
+.smile h2 {
+    font-family: calibri;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    /* identical to box height, or 144% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.smile p {
+    font-family: calibri;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    /* identical to box height, or 144% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#btn_regis {
+    align-self: center;
+    margin-top: 85px;
+    margin-bottom: 52px;
+}
+
+/* F.A.Q */
+.faq {
+    width: 920px;
+    height: 707px;
+    margin: 67px auto 0 auto;
+    padding: 0;
+}
+
+.faq h1 {
+    height: 75px;
+
+    font-family: calibri;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 75px;
+    text-align: center;
+
+    color: #071629;
+}
+
+#fq {
+    display: flex;
+    justify-content: space-between;
+}
+
+.f {
+    height: 581px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.how_does_work {
+    width: 350px;
+    height: 242px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.how_does_work h2 {
+    font-family: calibri;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #071629;
+    margin-bottom: 0px;
+}
+
+.how_does_work p {
+    font-family: calibri;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+
+    color: rgba(7, 22, 41, 0.501584);
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/* Footer */
+footer {
+    width: 1440px;
+    height: 249px;
+    margin-left: -8px;
+    margin-top: 84px;
+    margin-bottom: -8px;
+    background: #071629;
+}
+
+footer p {
+    font-family: calibri;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    text-align: center;
+    color: #FFFFFF;
+
+    margin-top: 70px;
+    mix-blend-mode: normal;
+    opacity: 0.35;
+}
+
+#social {
+    display: flex;
+    justify-content: space-between;
+    margin: 95px 240px 0 165px;
+}
+
+#social a {
+    margin-left: 20px;
 }
