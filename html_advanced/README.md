@@ -90,13 +90,13 @@ Under the banner, we will add the quote block:
 
 The quote section is inside the main:
 
-    * Create a new section for the quote
-    * Inside, add a block containing:
-        * An image
-        * Another block with inside:
-            * A quote tag
-            * An author quote
-            * A text
+* Create a new section for the quote
+* Inside, add a block containing:
+    * An image
+    * Another block with inside:
+        * A quote tag
+        * An author quote
+        * A text
 
 File: `index.html`
 
@@ -110,17 +110,17 @@ Let’s now add the videos list:
 
 New section with inside:
 
-    * An heading tag
-    * A block containing the 4 video block - each of them are composed with:
-        * An image
+* An heading tag
+* A block containing the 4 video block - each of them are composed with:
+    * An image
+    * An heading
+    * A text
+    * A block for the author:
+        * A image
         * An heading
+    * A block for the rating:
+        * A block of images (one star = one image)
         * A text
-        * A block for the author:
-            * A image
-            * An heading
-        * A block for the rating:
-            * A block of images (one star = one image)
-            * A text
 
 File: `index.html`
 
@@ -134,12 +134,12 @@ Membership section is similar as the videos list:
 
 After the videos list section, add a new section containing:
 
+* An heading
+* A block with inside 4 block item - each block defined with:
+    * An image
     * An heading
-    * A block with inside 4 block item - each block defined with:
-        * An image
-        * An heading
-        * A text
-    * A button
+    * A text
+* A button
 
 File: `index.html`
 
@@ -153,11 +153,11 @@ The FAQ section is ending the page before the footer:
 
 Add a section for the FAQ with inside:
 
-    * A block that contains 2 “row block”
-    * Each “row block” contains 2 “item block”
-    * Each “item block” is composed of:
-        * An heading
-        * A text
+* A block that contains 2 “row block”
+* Each “row block” contains 2 “item block”
+* Each “item block” is composed of:
+    * An heading
+    * A text
 
 File: `index.html`
 
@@ -171,12 +171,12 @@ And… the footer!
 
 After the last section, outside of the main, add a footer:
 
-    * A global block (used later for centering the footer content), inside this block:
-        * A “row block” with:
-            * An image
-            * A block with inside:
-                * Images with link
-        * A text
+* A global block (used later for centering the footer content), inside this block:
+    * A “row block” with:
+        * An image
+        * A block with inside:
+            * Images with link
+    * A text
 
 And… that’s it for the moment - the result should not be shiny, don’t worry, CSS is coming…
 
