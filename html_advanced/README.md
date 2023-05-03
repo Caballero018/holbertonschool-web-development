@@ -89,6 +89,7 @@ Under the banner, we will add the quote block:
 ![image](images-readme/6.jpg)
 
 The quote section is inside the main:
+
     * Create a new section for the quote
     * Inside, add a block containing:
         * An image
@@ -108,6 +109,7 @@ Let’s now add the videos list:
 ![image](images-readme/7.jpg)
 
 New section with inside:
+
     * An heading tag
     * A block containing the 4 video block - each of them are composed with:
         * An image
@@ -131,6 +133,7 @@ Membership section is similar as the videos list:
 ![image](images-readme/8.jpg)
 
 After the videos list section, add a new section containing:
+
     * An heading
     * A block with inside 4 block item - each block defined with:
         * An image
@@ -149,6 +152,7 @@ The FAQ section is ending the page before the footer:
 ![image](images-readme/9.jpg)
 
 Add a section for the FAQ with inside:
+
     * A block that contains 2 “row block”
     * Each “row block” contains 2 “item block”
     * Each “item block” is composed of:
@@ -166,6 +170,7 @@ And… the footer!
 ![image](images-readme/10.jpg)
 
 After the last section, outside of the main, add a footer:
+
     * A global block (used later for centering the footer content), inside this block:
         * A “row block” with:
             * An image
